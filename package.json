@@ -1,10 +1,11 @@
 {
   "name": "npm-package-starter",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cz": "git-cz"
+    "cz": "git-cz",
+    "semantic-release": "semantic-release"
   },
   "author": "bibixx <bartosz@legiec.eu>",
   "license": "MIT",
@@ -12,7 +13,8 @@
     "@commitlint/cli": "^8.1.0",
     "@commitlint/config-conventional": "^8.1.0",
     "cz-conventional-changelog": "^3.0.2",
-    "husky": "^3.0.4"
+    "husky": "^3.0.4",
+    "semantic-release": "^15.13.24"
   },
   "config": {
     "commitizen": {
@@ -23,5 +25,9 @@
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bibixx/npm-package-starter.git"
   }
 }
