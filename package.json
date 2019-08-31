@@ -1,5 +1,5 @@
 {
-  "name": "npm-package-starter",
+  "name": "@bibixx/npm-package-starter",
   "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
